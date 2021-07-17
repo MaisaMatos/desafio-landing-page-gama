@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color:#000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;  
+  height: 25px;
+  padding: 25px;
+  background-color: gold;   
+}
+
+.viaje-dja{
+  font-weight:bold;
+}
+
+.navbar{
+  font-weight: bold;
+}
+
+.section-container{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-section-one{
+  background-color: #000;
+  height: 360px;  
+}
+
+.section-two{
+  background-color: gold;
+  height: 250px;
+  padding: 25px;
+  text-align: center;  
+  color: #000;   
+}
+
+.viagens{  
+  justify-content: space-around;  
+  flex-wrap: wrap;  
+  padding: 25px;
+}
+
+.background-section-three{
+  background-color: #000;
+  height: 300px;
+}
+
+.card-container{
+  background:gold;
+  border-radius: 25px;
+  padding: 25px;
+  max-width: 450px;  
+}
+
+input{
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 12px;
+  background:#fff;
+  color: #000
+}
+
+form{
+  display: grid;
+}
+
+.section-four{
+  background-color: gold;
+}
+
+.box-contato{
+  display: flex;
+  justify-content: space-around; 
+  padding: 20px;
+  
+}
+
+
+footer{
+  height: 80px;
+  padding: 25px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;  
+}
+
+.assinatura{
+color:#fff;
+}
+
+.redes{
+  display: flex;
+  justify-content: center;  
+}
